@@ -1,13 +1,16 @@
+/* This is applying a border box to the whole page along with specifications for no padding or margin*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Applying this color to the body background */
 body {
     background-color: #d9dcd6;
 }
 
+/* Specifying the font, font color, background color and padding for the header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Indicating the way the font for Horiseon should be inline and the sizing*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Changing just the coloring on the letters seo in the company name Horiseon. Styling it */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Setting color, location, sizing for the listed sections in the header */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* Indicating no item marker is shown for the listed sections */
 .header div ul {
     list-style-type: none;
 }
 
+/* Where the header listed sections should be lined up and the margin sizing */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Setting font color and specifying no text decoration for the listed sections in header */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Setting font size for all text in the tagged paragraphs */
 p {
     font-size: 16px;
 }
 
+/* Setting specs for the main photo at the top of the page below the header  */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* All items tagged with class float-left will adhere to these display specs */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* All items tagged with class float-right will adhere to these display specs */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* All items tagged with class content will adhere to these display specs */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* All tagged items with class benefits will have the following coloring, setting, font and background color */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,22 +101,26 @@ p {
     background-color: #2589bd;
 }
 
+/* The 3 sections on the right side with the follow class selectors all adhere to this color and margin to align the same */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* The 3 sections on the right side with the following class selectors all adhere to this text alignment  */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* The 3 images in the right hand section with the following class selectors will display with the following criteria */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* The following sections with these selectors will adhere to these font, color, background color and spacing*/
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,15 +130,18 @@ p {
     color: #ffffff;
 }
 
+/* The images attached to the following class selectors will adhere to the max height */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
+/* The following headers with the specified class selectors will adhere to the following font sizing and margin specs */
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Indicating the padding, font family and alignment for the wording in the footer for the whole page */
 .footer {
     padding: 30px;
     clear: both;
@@ -127,6 +149,7 @@ p {
     text-align: center;
 }
 
+/* Specifying the footer font size */
 .footer h2 {
     font-size: 20px;
 }
