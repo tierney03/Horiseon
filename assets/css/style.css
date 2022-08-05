@@ -12,7 +12,7 @@ body {
 
 /* Specifying the font, font color, background color and padding for the header */
 .header {
-    padding: 20px;
+    padding: 60px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
